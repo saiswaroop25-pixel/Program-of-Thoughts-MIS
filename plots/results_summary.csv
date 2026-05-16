@@ -1,0 +1,16 @@
+file,dataset,method_label,model,n,correct,accuracy,exec_errors,missing,paper
+aqua_fs_llama-3.1-8b-instant_0_100.jsonl,aqua,PoT few-shot,llama-3.1-8b-instant,100,34,34.0,35,47,54.1
+aqua_fs_llama-3.1-8b-instant_0_5.jsonl,aqua,PoT few-shot,llama-3.1-8b-instant,5,2,40.0,2,2,54.1
+gsm8k_cot_fs_llama-3.1-8b-instant_0_10.jsonl,gsm8k,CoT few-shot,llama-3.1-8b-instant,10,8,80.0,0,0,63.1
+gsm8k_cot_fs_llama-3.1-8b-instant_0_100.jsonl,gsm8k,CoT few-shot,llama-3.1-8b-instant,100,84,84.0,0,0,63.1
+gsm8k_cot_zs_llama-3.1-8b-instant_0_10.jsonl,gsm8k,CoT zero-shot,llama-3.1-8b-instant,10,7,70.0,0,0,40.5
+gsm8k_cot_zs_llama-3.1-8b-instant_0_100.jsonl,gsm8k,CoT zero-shot,llama-3.1-8b-instant,100,86,86.0,0,0,40.5
+gsm8k_cot_zs_llama-3.3-70b-versatile_0_100.jsonl,gsm8k,CoT zero-shot,llama-3.3-70b-versatile,100,98,98.0,0,0,40.5
+gsm8k_fs_llama-3.1-8b-instant_0_10.jsonl,gsm8k,PoT few-shot,llama-3.1-8b-instant,10,5,50.0,0,0,71.6
+gsm8k_fs_llama-3.1-8b-instant_0_100.jsonl,gsm8k,PoT few-shot,llama-3.1-8b-instant,100,63,63.0,4,4,71.6
+gsm8k_zs_llama-3.1-8b-instant_0_10.jsonl,gsm8k,PoT zero-shot,llama-3.1-8b-instant,10,6,60.0,0,0,57.0
+gsm8k_zs_llama-3.1-8b-instant_0_100.jsonl,gsm8k,PoT zero-shot,llama-3.1-8b-instant,100,82,82.0,1,1,57.0
+gsm8k_zs_llama-3.1-8b-instant_0_2.jsonl,gsm8k,PoT zero-shot,llama-3.1-8b-instant,2,2,100.0,0,0,57.0
+gsm8k_zs_llama-3.3-70b-versatile_0_100.jsonl,gsm8k,PoT zero-shot,llama-3.3-70b-versatile,100,94,94.0,1,1,57.0
+gsm8k_zs_llama-3.3-70b-versatile_0_20.jsonl,gsm8k,PoT zero-shot,llama-3.3-70b-versatile,20,19,95.0,0,0,57.0
+multiarith_zs_llama-3.1-8b-instant_0_100.jsonl,multiarith,PoT zero-shot,llama-3.1-8b-instant,100,100,100.0,0,0,92.2

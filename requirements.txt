@@ -1,0 +1,13 @@
+# ── Core (always needed) ──────────────────────────────────────────────────────
+sympy>=1.12
+datasets>=2.14.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# ── FREE providers — install whichever you use ────────────────────────────────
+google-generativeai>=0.8.0     # Gemini  (FREE 1500 req/day)
+groq>=0.9.0                    # Groq    (FREE ~14400 req/day)
+
+# ── Paid providers (optional) ─────────────────────────────────────────────────
+openai>=1.0.0                  # OpenAI ($5 min) + OpenRouter (same lib)
+anthropic>=0.20.0              # Anthropic Claude ($5 min)

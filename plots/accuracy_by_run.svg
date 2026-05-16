@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1725" height="540" viewBox="0 0 1725 540"><rect width="100%" height="100%" fill="white"/>
+<text x="862.5" y="28.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">Accuracy Across Available Runs</text>
+<line x1="80" y1="415.0" x2="1675" y2="415.0" stroke="#ddd"/>
+<text x="70.0" y="419.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">0</text>
+<line x1="80" y1="346.4" x2="1675" y2="346.4" stroke="#ddd"/>
+<text x="70.0" y="350.4" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">20</text>
+<line x1="80" y1="277.9" x2="1675" y2="277.9" stroke="#ddd"/>
+<text x="70.0" y="281.9" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">40</text>
+<line x1="80" y1="209.3" x2="1675" y2="209.3" stroke="#ddd"/>
+<text x="70.0" y="213.3" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">60</text>
+<line x1="80" y1="140.7" x2="1675" y2="140.7" stroke="#ddd"/>
+<text x="70.0" y="144.7" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">80</text>
+<line x1="80" y1="72.1" x2="1675" y2="72.1" stroke="#ddd"/>
+<text x="70.0" y="76.1" text-anchor="end" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">100</text>
+<line x1="80" y1="55" x2="80" y2="415" stroke="#333"/>
+<line x1="80" y1="415" x2="1675" y2="415" stroke="#333"/>
+<text x="18.0" y="235.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#222" transform="rotate(-90 18 235.0)">Accuracy (%)</text>
+<rect x="119.9" y="298.4" width="26.6" height="116.6" fill="#b65f3a"/>
+<text x="133.2" y="293.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">34.0</text>
+<text x="133.2" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT few-shot</text>
+<text x="133.2" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="133.2" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="133.2" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="226.2" y="277.9" width="26.6" height="137.1" fill="#b65f3a"/>
+<text x="239.5" y="272.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">40.0</text>
+<text x="239.5" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT few-shot</text>
+<text x="239.5" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="239.5" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="239.5" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=5</text>
+<rect x="332.5" y="140.7" width="26.6" height="274.3" fill="#88a758"/>
+<text x="345.8" y="135.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">80.0</text>
+<text x="345.8" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">CoT few-shot</text>
+<text x="345.8" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="345.8" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="345.8" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=10</text>
+<rect x="438.9" y="127.0" width="26.6" height="288.0" fill="#88a758"/>
+<text x="452.2" y="122.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">84.0</text>
+<text x="452.2" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">CoT few-shot</text>
+<text x="452.2" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="452.2" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="452.2" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="545.2" y="175.0" width="26.6" height="240.0" fill="#5b7db1"/>
+<text x="558.5" y="170.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">70.0</text>
+<text x="558.5" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">CoT zero-shot</text>
+<text x="558.5" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="558.5" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="558.5" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=10</text>
+<rect x="651.5" y="120.1" width="26.6" height="294.9" fill="#5b7db1"/>
+<text x="664.8" y="115.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">86.0</text>
+<text x="664.8" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">CoT zero-shot</text>
+<text x="664.8" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="664.8" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="664.8" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="757.9" y="79.0" width="26.6" height="336.0" fill="#5b7db1"/>
+<text x="771.2" y="74.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">98.0</text>
+<text x="771.2" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">CoT zero-shot</text>
+<text x="771.2" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="771.2" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.3-70b-versatile</text>
+<text x="771.2" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="864.2" y="243.6" width="26.6" height="171.4" fill="#b65f3a"/>
+<text x="877.5" y="238.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">50.0</text>
+<text x="877.5" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT few-shot</text>
+<text x="877.5" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="877.5" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="877.5" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=10</text>
+<rect x="970.5" y="199.0" width="26.6" height="216.0" fill="#b65f3a"/>
+<text x="983.8" y="194.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">63.0</text>
+<text x="983.8" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT few-shot</text>
+<text x="983.8" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="983.8" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="983.8" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="1076.9" y="209.3" width="26.6" height="205.7" fill="#2f7f6f"/>
+<text x="1090.2" y="204.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">60.0</text>
+<text x="1090.2" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT zero-shot</text>
+<text x="1090.2" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="1090.2" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="1090.2" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=10</text>
+<rect x="1183.2" y="133.9" width="26.6" height="281.1" fill="#2f7f6f"/>
+<text x="1196.5" y="128.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">82.0</text>
+<text x="1196.5" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT zero-shot</text>
+<text x="1196.5" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="1196.5" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="1196.5" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="1289.5" y="72.1" width="26.6" height="342.9" fill="#2f7f6f"/>
+<text x="1302.8" y="67.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">100.0</text>
+<text x="1302.8" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT zero-shot</text>
+<text x="1302.8" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="1302.8" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="1302.8" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=2</text>
+<rect x="1395.9" y="92.7" width="26.6" height="322.3" fill="#2f7f6f"/>
+<text x="1409.2" y="87.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">94.0</text>
+<text x="1409.2" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT zero-shot</text>
+<text x="1409.2" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="1409.2" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.3-70b-versatile</text>
+<text x="1409.2" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+<rect x="1502.2" y="89.3" width="26.6" height="325.7" fill="#2f7f6f"/>
+<text x="1515.5" y="84.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">95.0</text>
+<text x="1515.5" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT zero-shot</text>
+<text x="1515.5" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="1515.5" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.3-70b-versatile</text>
+<text x="1515.5" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=20</text>
+<rect x="1608.5" y="72.1" width="26.6" height="342.9" fill="#2f7f6f"/>
+<text x="1621.8" y="67.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">100.0</text>
+<text x="1621.8" y="437.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">PoT zero-shot</text>
+<text x="1621.8" y="450.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222"></text>
+<text x="1621.8" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">llama-3.1-8b-instant</text>
+<text x="1621.8" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">n=100</text>
+</svg>
