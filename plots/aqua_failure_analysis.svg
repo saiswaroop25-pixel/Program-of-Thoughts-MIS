@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620"><rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="30.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">Failure Analysis: aqua_fs_llama-3.1-8b-instant_0_100.jsonl</text>
+<text x="490.0" y="52.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#222">Total examples: 100</text>
+<text x="70.0" y="95.0" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Failure Category Counts</text>
+<line x1="70" y1="111" x2="460" y2="111" stroke="#ddd"/>
+<text x="70.0" y="153.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">Execution errors</text>
+<rect x="220.0" y="140.0" width="220.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="220.0" y="140.0" width="77.0" height="18.0" fill="#7c5aa6" rx="2"/>
+<text x="448.0" y="153.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">35 (35.0%)</text>
+<text x="70.0" y="187.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">Missing predictions</text>
+<rect x="220.0" y="174.0" width="220.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="220.0" y="174.0" width="103.4" height="18.0" fill="#b24a54" rx="2"/>
+<text x="448.0" y="187.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">47 (47.0%)</text>
+<text x="70.0" y="221.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">Missing numeric answers</text>
+<rect x="220.0" y="208.0" width="220.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="220.0" y="208.0" width="79.2" height="18.0" fill="#d08a35" rx="2"/>
+<text x="448.0" y="221.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">36 (36.0%)</text>
+<text x="70.0" y="255.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">Wrong non-empty predi...</text>
+<rect x="220.0" y="242.0" width="220.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="220.0" y="242.0" width="41.8" height="18.0" fill="#5b7db1" rx="2"/>
+<text x="448.0" y="255.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">19 (19.0%)</text>
+<text x="540.0" y="95.0" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Top Execution Error Types</text>
+<line x1="540" y1="111" x2="910" y2="111" stroke="#ddd"/>
+<text x="540.0" y="153.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">IndexError: list index out of r...</text>
+<rect x="690.0" y="140.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="140.0" width="200.0" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="153.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">6</text>
+<text x="540.0" y="187.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">TypeError: Cannot convert expre...</text>
+<rect x="690.0" y="174.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="174.0" width="133.3" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="187.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">4</text>
+<text x="540.0" y="221.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">TypeError: list indices must be...</text>
+<rect x="690.0" y="208.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="208.0" width="133.3" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="221.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">4</text>
+<text x="540.0" y="255.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">KeyError: x</text>
+<rect x="690.0" y="242.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="242.0" width="100.0" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="255.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">3</text>
+<text x="540.0" y="289.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">KeyError: 0</text>
+<rect x="690.0" y="276.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="276.0" width="33.3" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="289.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">1</text>
+<text x="540.0" y="323.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">KeyError: time_second_part</text>
+<rect x="690.0" y="310.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="310.0" width="33.3" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="323.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">1</text>
+<text x="540.0" y="357.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">KeyError: speed</text>
+<rect x="690.0" y="344.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="344.0" width="33.3" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="357.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">1</text>
+<text x="540.0" y="391.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">KeyError: distance</text>
+<rect x="690.0" y="378.0" width="200.0" height="18.0" fill="#f0f2f4" rx="2"/>
+<rect x="690.0" y="378.0" width="33.3" height="18.0" fill="#2f7f6f" rx="2"/>
+<text x="898.0" y="391.0" text-anchor="start" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#222">1</text>
+<text x="70.0" y="485.0" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Interpretation</text>
+<text x="70.0" y="510.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#222">Most failures come from program generation rather than arithmetic. The model emits invalid SymPy code,</text>
+<text x="70.0" y="524.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#222">empty solution indexing, or expressions that cannot be converted into a numeric multiple-choice option.</text>
+</svg>

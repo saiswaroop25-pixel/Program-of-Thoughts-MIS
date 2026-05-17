@@ -10,6 +10,4 @@
 | AQuA | PoT few-shot | Llama-3.1-8b-instant | 100 | 34.0% | 54.1% | -20.1% |
 | MultiArith | PoT zero-shot | Llama-3.1-8b-instant | 100 | 100.0% | 92.2% | +7.8% |
 
-> Paper baselines use Codex (code-davinci-002, 175B), a code-specialized model.
-> This project uses Llama via Groq — a chat model, which explains the CoT > PoT
-> pattern on GSM8K (opposite of the paper). See conclusion.md for full discussion.
+

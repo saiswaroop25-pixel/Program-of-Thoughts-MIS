@@ -127,69 +127,6 @@ math_students = x / 16
 
 ```
 
-### Row 24
-
-- Gold answer: `D`
-- Prediction: `None`
-- Numeric answer: `None`
-- Error: `KeyError: speed`
-- Question: On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.
-
-```python
-import math
-from sympy import Symbol, symbols, simplify, solve, sqrt, Rational, Eq
-from sympy import Symbol, solve_it
-speed = Symbol('speed', positive=True)
-wind_speed = Symbol('wind_speed', positive=True)
-original_speed = 15
-reduced_speed = original_speed - 4
-time = 21 / 60
-distance = reduced_speed * time
-solution = solve_it([speed - reduced_speed, distance - distance], [speed, wind_speed])
-```
-
-### Row 26
-
-- Gold answer: `C`
-- Prediction: `None`
-- Numeric answer: `None`
-- Error: `TypeError: Cannot convert expression to float`
-- Question: At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years
-
-```python
-import math
-from sympy import Symbol, symbols, simplify, solve, sqrt, Rational, Eq
-from sympy import Symbol, solve_it
-
-principal = Symbol('principal', positive=True)
-interest_rate = Symbol('interest_rate', positive=True)
-time = Symbol('time', positive=True)
-amount = principal + principal * interest_rate * time / 100
-solution = solve_it(amount - 500, [principal, interest_rate])
-interest_rate_val = solution[interest_rate]
-```
-
-### Row 28
-
-- Gold answer: `B`
-- Prediction: `None`
-- Numeric answer: `None`
-- Error: `KeyError: distance`
-- Question: A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?
-
-```python
-import math
-from sympy import Symbol, symbols, simplify, solve, sqrt, Rational, Eq
-from sympy import Symbol, solve_it
-speed_forward = Symbol('speed_forward', positive=True)
-speed_backward = Symbol('speed_backward', positive=True)
-time_forward = 6
-time_backward = 4
-distance = Symbol('distance', positive=True)
-solution = solve_it([speed_forward * time_forward - distance, (speed_forward + 12) * time_backward - distance], [distance])
-ans = solution[distance]
-```
-
 
 ## Interpretation
 
